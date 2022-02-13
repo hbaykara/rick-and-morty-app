@@ -1,4 +1,4 @@
-# Ricky And Morty App
+# Rick And Morty App
 
 [DEMO](http://rickandmorty.hakanbaykara.com/)
 
