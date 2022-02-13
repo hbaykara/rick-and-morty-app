@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(45,45,48);
+  background: radial-gradient(circle, rgba(45,45,48,1) 0%, rgba(45,45,48,1) 50%, rgba(28,28,30,1) 100%);
+  color: #fff;
+}
+
+html, 
+body{
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
